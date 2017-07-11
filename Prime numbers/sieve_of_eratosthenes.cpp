@@ -15,7 +15,7 @@ using namespace std;
 #define LIMIT             1000000
 
 #define FRI(i, a, b)      for(i = a; i < (int)b; ++i)
-#define FRS(i, j, a, b)      for(i = a; i * j < (int)b; ++i)
+#define FRS(i, j, a, b)   for(i = a; i * j < (int)b; ++i)
 
 int main() {
   int i, j;
